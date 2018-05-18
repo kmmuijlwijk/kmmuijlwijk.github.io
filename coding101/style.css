@@ -1,0 +1,40 @@
+body {
+  font-family: garamond;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+h1 {
+  width: 600px;
+  margin: 0 auto;
+  border-style: double;
+  border-width: 10px;
+  border-color: #ffbf00;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: 30px;
+  color: #ffbf00;
+}
+img {
+  border: 0.5px solid #ffbf00;
+  padding: 5px;
+  height: auto;
+  width: 220px;
+  margin: 10px 10px;
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+}
+li {
+  display: inline-block;
+  letter-spacing: 10px;
+  padding: 20px;
+}
+li:hover {
+  font-weight: bold;
+  background-color: darkgray;
+}
